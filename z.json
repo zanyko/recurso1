@@ -1,0 +1,286 @@
+{
+  "tipoUsuarios": [
+    {
+      "id": "0",
+      "nombre": "Sin asignar"
+    },
+    {
+      "id": "1",
+      "nombre": "Docente"
+    },
+    {
+      "id": "2",
+      "nombre": "Alumno"
+    }
+  ],
+  "tipoAsig": [
+    {
+      "id": "1",
+      "nombre": "Principal"
+    },
+    {
+      "id": "2",
+      "nombre": "Taller"
+    }
+  ],
+  "asignaturas": [
+    {
+      "id": "1",
+      "nombre": "Programacion",
+      "tipo": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Videojuegos",
+      "tipo": "1"
+    },
+    {
+      "id": "3",
+      "nombre": "Deutsch",
+      "tipo": "2"
+    },
+    {
+      "id": "4",
+      "nombre": "Microbiologia",
+      "tipo": "1"
+    },
+    {
+      "id": "5",
+      "nombre": "English",
+      "tipo": "1"
+    },
+    {
+      "id": "6",
+      "nombre": "Música",
+      "tipo": "2"
+    }
+  ],
+  "clases": [
+    {
+      "id": "128",
+      "iddocente": "d1",
+      "idalumno": "z91",
+      "idasig": "1",
+      "asistencias": 8
+    },
+    {
+      "id": "256",
+      "iddocente": "d1",
+      "idalumno": "z92",
+      "idasig": "2",
+      "asistencias": 10
+    },
+    {
+      "id": "512",
+      "iddocente": "d1",
+      "idalumno": "z93",
+      "idasig": "3",
+      "asistencias": 6
+    },
+    {
+      "id": "1024",
+      "iddocente": "d2",
+      "idalumno": "z94",
+      "idasig": "4",
+      "asistencias": "1"
+    },
+    {
+      "id": "2048",
+      "iddocente": "d2",
+      "idalumno": "z95",
+      "idasig": "5",
+      "asistencias": "1"
+    },
+    {
+      "id": "4096",
+      "iddocente": "d2",
+      "idalumno": "z96",
+      "idasig": "6",
+      "asistencias": "1"
+    }
+  ],
+  "asistencias": [
+    {
+      "id": "1",
+      "iduser": "1",
+      "idclass": "1",
+      "asis": "0",
+      "qrdata": ""
+    },
+    {
+      "id": "7ea1",
+      "asis": null,
+      "qrdata": "undefinedzaavnNaN"
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": "1",
+      "iduser": "z91",
+      "idclass": "128",
+      "just": "1",
+      "name": "Programacion",
+      "date": "2024-10-23",
+      "motivo": "motivo1"
+    },
+    {
+      "id": "dbbe",
+      "iduser": "z91",
+      "idclass": "128",
+      "just": 1,
+      "name": "Deutsch",
+      "date": "2024-10-16",
+      "motivo": "xtrcfygvbhjnkml,ñ."
+    },
+    {
+      "id": "68e9",
+      "iduser": "z91",
+      "idclass": "512",
+      "just": 1,
+      "name": "Deutsch",
+      "date": "2024-10-31",
+      "motivo": "Licencia medica"
+    },
+    {
+      "id": "234e",
+      "iduser": "z91",
+      "idclass": "512",
+      "just": 1,
+      "name": "Deutsch",
+      "date": "2024-10-29",
+      "motivo": "HILFE!"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "d1",
+      "username": "docente1",
+      "email": "docente1@duoc.profesor.cl",
+      "password": "viceraes",
+      "name1": "zagerosssssssssssssssssssssssssssss",
+      "name2": "",
+      "name3": "zozvo",
+      "name4": "",
+      "phone": "91919191",
+      "isactive": true,
+      "tipo": 2
+    },
+    {
+      "id": "d2",
+      "username": "docente2",
+      "email": "docente2@duoc.profesor.cl",
+      "password": "viceraes",
+      "name1": "zysv",
+      "name2": "",
+      "name3": "yorevyn",
+      "name4": "",
+      "phone": "42699373",
+      "isactive": true,
+      "tipo": "1"
+    },
+    {
+      "id": "z1",
+      "username": "usuario1",
+      "email": "zanenvarys@zaav.zn",
+      "password": "viceraes",
+      "name1": "zeverezz",
+      "name2": "",
+      "name3": "voigt",
+      "name4": "",
+      "phone": "963992921",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z2",
+      "username": "usuario2",
+      "email": "usuario2@mail.cl",
+      "password": "maipu1234",
+      "name1": "Nombre1",
+      "name2": "Nombre2",
+      "name3": "Nombre3",
+      "name4": "Nombre4",
+      "phone": "123456789",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z91",
+      "username": "zaavn",
+      "email": "zanenvarys@zaav.zn",
+      "password": "viceraes",
+      "name1": "zeverezz",
+      "name2": "",
+      "name3": "voygt",
+      "name4": "",
+      "phone": "963992921",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z92",
+      "username": "zaavn",
+      "email": "zanenvarys@zaav.zn",
+      "password": "viceraes",
+      "name1": "korovoz",
+      "name2": "",
+      "name3": "jyranyzz",
+      "name4": "",
+      "phone": "78969444",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z93",
+      "username": "zyzvanyz",
+      "email": "zyzvanyz@zaav.zn",
+      "password": "viceraes",
+      "name1": "zyzvanyz",
+      "name2": "",
+      "name3": "gerzeraz",
+      "name4": "",
+      "phone": "48516555",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z94",
+      "username": "zaveros",
+      "email": "zy@zaav.zn",
+      "password": "viceraes",
+      "name1": "yguva",
+      "name2": "",
+      "name3": "zozkenzzavos",
+      "name4": "",
+      "phone": "98985123",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z95",
+      "username": "yguva",
+      "email": "email@zaav.zn",
+      "password": "viceraes",
+      "name1": "fezoryz",
+      "name2": "",
+      "name3": "gezarez",
+      "name4": "",
+      "phone": "99971849",
+      "isactive": true,
+      "tipo": "2"
+    },
+    {
+      "id": "z96",
+      "username": "yesoft",
+      "email": "klz@zaav.zn",
+      "password": "viceraes",
+      "name1": "zelz",
+      "name2": "",
+      "name3": "zujuv",
+      "name4": "",
+      "phone": "99971849",
+      "isactive": true,
+      "tipo": "2"
+    }
+  ]
+}
